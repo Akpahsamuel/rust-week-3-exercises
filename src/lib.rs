@@ -292,6 +292,7 @@ impl BitcoinTransaction {
     }
 }
 
+
 impl fmt::Display for BitcoinTransaction {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         writeln!(f, "Version: {}", self.version)?;
